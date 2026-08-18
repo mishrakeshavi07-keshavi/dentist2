@@ -566,3 +566,21 @@ p{ margin: 0 0 1em; color: var(--muted); }
   .contact-grid{ grid-template-columns: 1fr; }
   .badge-25{ width: 100px; height: 100px; left: -1rem; bottom: -1rem; }
 }
+@media (max-width: 560px){
+  .topbar .container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .35rem;
+    padding: .6rem 0;
+  }
+  .topbar-links{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .9rem 1.1rem;
+  }
+  .topbar-badge{
+    font-size: .74rem;
+    white-space: normal;
+  }
+}
